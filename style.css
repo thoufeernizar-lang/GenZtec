@@ -115,3 +115,37 @@ cursor:pointer;
 grid-template-columns:1fr;
 }
 }
+.why-us{
+padding:80px 40px;
+text-align:center;
+background:#ffffff;
+}
+
+.why-us h2{
+margin-bottom:40px;
+font-size:36px;
+color:#0d1b2a;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.feature-box{
+background:#f8f9fb;
+padding:30px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.feature-box:hover{
+transform:translateY(-5px);
+}
+
+.feature-box h3{
+color:#0057ff;
+margin-bottom:15px;
+}
